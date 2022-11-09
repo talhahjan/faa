@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="assets/css/tw-element.css" />
   <link rel="stylesheet" href="assets/css/style.css" />
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link href="assets/css/owlcarousel/owl.carousel.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 <div class="wrapper mt-12">
@@ -14,32 +14,31 @@
 <nav class="fixed top-0 w-full max-w-5xl flex justify-between items-center h-12 px-2 z-50 bg-white">
 <div class="font-2x1 font-semibold" id="brand">Fazal-Al-Abbasi</div>
 <ul class="hidden absolute md:static top-12 right-0 p-4 md:m-0 rounded-md shadow md:shadow-none duration-100 bg-gradient-to-tl md:bg-none from-gray-600 via-gray-700 to-gray-900 w-full md:w-auto md:flex justify-between items-center" id="nav-menu">
-<li class="p-2 md:p-0 text-white md:text-black">
-       <a href="#about-us" class="py-2 pr-4 leading-6 uppercase text-xs transition font-medium hover:bg-gradient-mdb hover:bg-pink-500 hover:to-pink-400 hover:shadow-md hover:text-white rounded-lg">
-        <i class='bx bxs-home text-base px-2'></i>About Us</a>
-      </li>
-      <li class="p-2 md:p-0 text-white md:text-black">
-        <a href="#services" class="py-2 pr-4 leading-6 uppercase text-xs transition font-medium hover:bg-gradient-mdb hover:bg-pink-500 hover:to-pink-400 hover:shadow-md hover:text-white rounded-lg">
-        <i class='bx bxs-home text-base px-2'></i>Services</a>
-      </li>
-    
-    
-      <li class="p-2 md:p-0 text-white md:text-black">
-        <a href="#ceo-msg" class="py-2 pr-4 leading-6 uppercase text-xs transition font-medium hover:bg-gradient-mdb hover:bg-pink-500 hover:to-pink-400 hover:shadow-md hover:text-white rounded-lg">
-        <i class='bx bxs-home text-base px-2'></i>CEO Message</a>
-      </li>
-    
-    
-      <li class="p-2 md:p-0 text-white md:text-black">
-        <a href="#contact-us" class="py-2 pr-4 leading-6 uppercase text-xs transition font-medium hover:bg-gradient-mdb hover:bg-pink-500 hover:to-pink-400 hover:shadow-md hover:text-white rounded-lg">
-        <i class='bx bxs-home text-base px-2'></i>Contact US</a>
-      </li>
-    
+  <li class="p-2 md:p-0 text-white md:text-black">
+    <a href="#about-us" class="py-2 pr-4 leading-6 uppercase text-xs duration-300 font-medium hover:bg-gradient-mdb hover:bg-pink-500 hover:to-pink-400 hover:shadow-md hover:text-white rounded-lg">
+      <i class="fa-solid fa-house text-base px-2"></i>About Us</a>
+   </li>
+   <li class="p-2 md:p-0 text-white md:text-black">
+     <a href="#services" class="py-2 pr-4 leading-6 uppercase text-xs duration-300 font-medium hover:bg-gradient-mdb hover:bg-pink-500 hover:to-pink-400 hover:shadow-md hover:text-white rounded-lg">
+      <i class="fa-solid fa-gear text-base px-2"></i>Services</a>
+   </li>
+ 
+ 
+   <li class="p-2 md:p-0 text-white md:text-black">
+     <a href="#ceo-msg" class="py-2 pr-4 leading-6 uppercase text-xs duration-300 font-medium hover:bg-gradient-mdb hover:bg-pink-500 hover:to-pink-400 hover:shadow-md hover:text-white rounded-lg">
+      <i class="fa-regular fa-comment text-base px-2"></i>CEO Message</a>
+   </li>
+ 
+ 
+   <li class="p-2 md:p-0 text-white md:text-black">
+     <a href="#contact-us" class="py-2 pr-4 leading-6 uppercase text-xs duration-300 font-medium hover:bg-gradient-mdb hover:bg-pink-500 hover:to-pink-400 hover:shadow-md hover:text-white rounded-lg">
+      <i class="fa-solid fa-phone text-base px-2"></i>Contact US</a>
+   </li>
     
     </ul>
     <div class="block md:hidden font-3x1">
-      <button type="button" class="md:hidden duration-100  align-middle	outline-none  inline" id="toggle-btn">
-       <i class='bx bxs-grid-alt'></i>
+      <button type="button" class="md:hidden duration-100  align-middle	outline-none inline" id="toggle-btn">
+       <i class='fa-solid fa-bars px-2'></i>
       </button>
     </div>
     </nav>
@@ -170,12 +169,12 @@
 <p>Fazal Al Abbasi Construction Company (FAC) was established a decade ago with the concept of providing Electro-mechanical products and integrated solutions related to operations and maintenance. We have developed a prestigious clientele over the past years and achieved significant milestones in the industry.  Our team consists of qualified and well experienced technical and engineering personnel who are capable of providing necessary technical guidance for most appropriate economic solutions without compromising quality.</p>
 <a href="#" class="border border-pink-400 bg-gradient-mdb  hover:to-pink-500 hover:from-pink-600 hover:text-white focus:ring-4 focus:outline-none focus:ring-pink-300 font-semibold rounded-lg text-sm p-2.5 text-center inline-flex items-center mr-2 my-4 hover:shadow-xl">
 Read more
- <svg aria-hidden="true" class="w-5 h-5 mx-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+<i class="fa-solid fa-arrow-right px-2 text-base"></i>
 </a>
 
 </div>
-<div class="row-span-full md:col-span-1 image">
-  <img class="w-full h-full" src="assets/img/about-us.jpeg" alt="About Us" />
+<div class="row-span-full md:col-span-1">
+  <img class="w-4/5 h-full object-cover shadow-[-1rem_-1rem_0_0] shadow-pink-500" class="relative before:absolute before:top-4 before:-right-4 before:w-full before:h-full before:before:pink-500 before:block" src="https://www.susangreenecopywriter.com/wp-content/uploads/2013/01/photo-1518081461904-9d8f136351c2.jpg" alt="About Us" />
 </div>
 
 </div>
@@ -191,19 +190,19 @@ Read more
     <section id="services" class="pt-12">
       <h2 class="text-pink-500 font-['Courgette',_cursive] text-2xl font-bold mb-6 text-center relative after:absolute after:w-36 after:h-[2px] after:bg-pink-500 after:-bottom-3 after:right-0 after:left-0 after:m-[0_auto]">Services & Businesses</h2>     
 
-    <!-- <div class="m-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3"> -->
+
 <div class="owl-carousel">
       
       <!-- ====== construction service ========== --> 
       <div class="w-64 h-[250px] p-4 m-6 overflow-hidden rounded-xl bg-gradient-mdb to-gray-50 from-transparent  hover:bg-gradient-mdb hover:from-pink-500 hover:to-pink-600 hover:shadow-[8px_8px_16px_#ff3366,_-8px_-8px_16px_#ffffff] shadow-[8px_8px_16px_#d1d1d1,_-8px_-8px_16px_#ffffff] cursor-pointer group mx-auto box">
-        <i class='bx bx-buildings text-5xl text-pink-500 mt-2 duration-300 group-hover:text-white group-hover:mt-0 icon'></i>
+        <i class='fa-solid fa-person-digging text-5xl text-pink-500 mt-2 duration-300 group-hover:text-white group-hover:mt-0 icon'></i>
     
     <h2 class="font-medium mt-2 group-hover:text-white">Construction</h2>
     
     <p class="text-gray-500 font-normal group-hover:text-white mt-6">
       Lorem ipsum dolor sit amet consectetur adipisicing elit.
     </p>
-    <span class="hidden text-lg text-pink-500 my-3 group-hover:block group-hover:text-white ">  <i class='bx bx-right-arrow-alt arrow'></i></span>
+    <span class="hidden text-lg text-pink-500 my-3 group-hover:block group-hover:text-white ">  <i class='fa-solid fa-arrow-right'></i></span>
     
     
     
@@ -216,13 +215,13 @@ Read more
     
         <!-- ====== It solution  service ========== --> 
        <div class="w-64 h-[250px] p-4 m-6 overflow-hidden rounded-xl bg-gradient-mdb to-gray-50 from-transparent  hover:bg-gradient-mdb hover:from-pink-500 hover:to-pink-600 hover:shadow-[8px_8px_16px_#ff3366,_-8px_-8px_16px_#ffffff] shadow-[8px_8px_16px_#d1d1d1,_-8px_-8px_16px_#ffffff] cursor-pointer group mx-auto box">
-        <i class='bx bx-menu text-5xl text-pink-500 mt-2 duration-300 group-hover:text-white group-hover:mt-0 icon'></i>
+        <i class="fa-solid fa-tower-cell text-5xl text-pink-500 mt-2 duration-300 group-hover:text-white group-hover:mt-0 icon"></i>
     
         <h2 class="font-medium mt-2 group-hover:text-white">IT Solution</h2>
     
     <p class="text-gray-500 font-normal group-hover:text-white mt-6 ">Lorem ipsum dolor ilique soluta ab dignissimos, obcaecati voluptates 
       , n</p>
-      <span class="hidden text-lg text-pink-500 my-3 group-hover:block group-hover:text-white ">  <i class='bx bx-right-arrow-alt arrow'></i></span>
+      <span class="hidden text-lg text-pink-500 my-3 group-hover:block group-hover:text-white "> <i class="fa-solid fa-arrow-right"></i></span>
     
     
     
@@ -235,13 +234,12 @@ Read more
     
         <!-- ====== Electric service ========== --> 
        <div class="w-64 h-[250px] p-4 m-6 overflow-hidden rounded-xl bg-gradient-mdb to-gray-50 from-transparent  hover:bg-gradient-mdb hover:from-pink-500 hover:to-pink-600 hover:shadow-[8px_8px_16px_#ff3366,_-8px_-8px_16px_#ffffff] shadow-[8px_8px_16px_#d1d1d1,_-8px_-8px_16px_#ffffff] cursor-pointer group mx-auto box">
-        <i class='bx bx-menu text-5xl text-pink-500 mt-2 duration-300 group-hover:text-white group-hover:mt-0 icon'></i>
-    
+ <i class="fa-solid fa-bolt text-5xl text-pink-500 mt-2 duration-300 group-hover:text-white group-hover:mt-0 icon"></i>
     <h2 class="font-medium mt-2 group-hover:text-white">Electric</h2>
     
     <p class="text-gray-500 font-normal group-hover:text-white mt-6 ">Lorem ipsum dolor ilique soluta ab dignissimos, obcaecati voluptates 
       , n</p>
-      <span class="hidden text-lg text-pink-500 my-3 group-hover:block group-hover:text-white ">  <i class='bx bx-right-arrow-alt arrow'></i></span>
+      <span class="hidden text-lg text-pink-500 my-3 group-hover:block group-hover:text-white ">  <i class='fa-solid fa-arrow-right'></i></span>
     
     
     
@@ -254,14 +252,14 @@ Read more
     
         <!-- ====== Electronic service ========== --> 
        <div class="w-64 h-[250px] p-4 m-6 overflow-hidden rounded-xl bg-gradient-mdb to-gray-50 from-transparent  hover:bg-gradient-mdb hover:from-pink-500 hover:to-pink-600 hover:shadow-[8px_8px_16px_#ff3366,_-8px_-8px_16px_#ffffff] shadow-[8px_8px_16px_#d1d1d1,_-8px_-8px_16px_#ffffff] cursor-pointer group mx-auto box">
-        <i class='bx bx-devices text-5xl text-pink-500 mt-2 duration-300 group-hover:text-white group-hover:mt-0 icon'></i>
+        <i class="fa-solid fa-computer text-5xl text-pink-500 mt-2 duration-300 group-hover:text-white group-hover:mt-0 icon"></i>
     
     
     <h2 class="font-medium mt-2 group-hover:text-white">Electronic</h2>
     
     <p class="text-gray-500 font-normal group-hover:text-white mt-6 ">Lorem ipsum dolor ilique soluta ab dignissimos, obcaecati voluptates 
       , n</p>
-      <span class="hidden text-lg text-pink-500 my-3 group-hover:block group-hover:text-white ">  <i class='bx bx-right-arrow-alt arrow'></i></span>
+      <span class="hidden text-lg text-pink-500 my-3 group-hover:block group-hover:text-white ">  <i class='fa-solid fa-arrow-right'></i></span>
     
     
     
@@ -274,13 +272,13 @@ Read more
     
           <!-- ====== Import & Export service ========== --> 
          <div class="w-64 h-[250px] p-4 m-6 overflow-hidden rounded-xl bg-gradient-mdb to-gray-50 from-transparent  hover:bg-gradient-mdb hover:from-pink-500 hover:to-pink-600 hover:shadow-[8px_8px_16px_#ff3366,_-8px_-8px_16px_#ffffff] shadow-[8px_8px_16px_#d1d1d1,_-8px_-8px_16px_#ffffff] cursor-pointer group mx-auto box">
-          <i class='bx bxs-ship text-5xl text-pink-500 mt-2 duration-300 group-hover:text-white group-hover:mt-0 icon'></i>
+          <i class="fa-solid fa-ship text-5xl text-pink-500 mt-2 duration-300 group-hover:text-white group-hover:mt-0 icon"></i>
     
       <h2 class="font-medium mt-2 group-hover:text-white">Import & Export</h2>
       
       <p class="text-gray-500 font-normal group-hover:text-white mt-6 ">Lorem ipsum dolor ilique soluta ab dignissimos, obcaecati voluptates 
         , n</p>
-        <span class="hidden text-lg text-pink-500 my-3 group-hover:block group-hover:text-white ">  <i class='bx bx-right-arrow-alt arrow'></i></span>
+        <span class="hidden text-lg text-pink-500 my-3 group-hover:block group-hover:text-white ">  <i class='fa-solid fa-arrow-right'></i></span>
       
       
       
@@ -291,13 +289,13 @@ Read more
     
         <!-- ====== Agriculture service ========== --> 
        <div class="w-64 h-[250px] p-4 m-6 overflow-hidden rounded-xl bg-gradient-mdb to-gray-50 from-transparent  hover:bg-gradient-mdb hover:from-pink-500 hover:to-pink-600 hover:shadow-[8px_8px_16px_#ff3366,_-8px_-8px_16px_#ffffff] shadow-[8px_8px_16px_#d1d1d1,_-8px_-8px_16px_#ffffff] cursor-pointer group mx-auto box">
-        <i class='bx bx-menu text-5xl text-pink-500 mt-2 duration-300 group-hover:text-white group-hover:mt-0 icon'></i>
+        <i class='fa-solid fa-tractor text-5xl text-pink-500 mt-2 duration-300 group-hover:text-white group-hover:mt-0 icon'></i>
      
     <h2 class="font-medium mt-2 group-hover:text-white">Agriculture</h2>
     
     <p class="text-gray-500 font-normal group-hover:text-white mt-6 ">Lorem ipsum dolor ilique soluta ab dignissimos, obcaecati voluptates 
       , n</p>
-      <span class="hidden text-lg text-pink-500 my-3 group-hover:block group-hover:text-white ">  <i class='bx bx-right-arrow-alt arrow'></i></span>
+      <span class="hidden text-lg text-pink-500 my-3 group-hover:block group-hover:text-white ">  <i class='fa-solid fa-arrow-right'></i></span>
     
     
     
@@ -310,13 +308,13 @@ Read more
     
           <!-- ====== Hospitals service ========== --> 
          <div class="w-64 h-[250px] p-4 m-6 overflow-hidden rounded-xl bg-gradient-mdb to-gray-50 from-transparent  hover:bg-gradient-mdb hover:from-pink-500 hover:to-pink-600 hover:shadow-[8px_8px_16px_#ff3366,_-8px_-8px_16px_#ffffff] shadow-[8px_8px_16px_#d1d1d1,_-8px_-8px_16px_#ffffff] cursor-pointer group mx-auto box">
-          <i class='bx bx-plus-medical text-5xl text-pink-500 mt-2 duration-300 group-hover:text-white group-hover:mt-0 icon'></i>
+          <i class='fa-solid fa-hospital text-5xl text-pink-500 mt-2 duration-300 group-hover:text-white group-hover:mt-0 icon'></i>
           
           <h2 class="font-medium mt-2 group-hover:text-white">Hospitals</h2>
       
       <p class="text-gray-500 font-normal group-hover:text-white mt-6 ">Lorem ipsum dolor ilique soluta ab dignissimos, obcaecati voluptates 
         , n</p>
-        <span class="hidden text-lg text-pink-500 my-3 group-hover:block group-hover:text-white ">  <i class='bx bx-right-arrow-alt arrow'></i></span>
+        <span class="hidden text-lg text-pink-500 my-3 group-hover:block group-hover:text-white ">  <i class='fa-solid fa-arrow-right'></i></span>
       
       
       
@@ -360,7 +358,7 @@ Read more
       <h2 class="text-pink-500 font-['Courgette',_cursive] text-2xl mb-6 font-bold text-center relative after:absolute after:w-36 after:h-[2px] after:bg-pink-500 after:-bottom-3 after:right-0 after:left-0 after:m-[0_auto]">CEO's Message</h2>  
 <div class="bg-gradient-mdb to-gray-50 from-transparent rounded-lg shadow-[8px_8px_16px_#d1d1d1,_-8px_-8px_16px_#ffffff] px-4 py-2">
   <div class="rounded-lg font-['Courgette',_cursive] flex flex-col items-center gap-14 py-7 px-0 md:flex-row md:py-7 md:px-24 wrapper1">        
-    <div class="w-36 h-36 shrink-0 md:w-52 md:h-52 thumbnail">
+    <div class="w-36 h-36 shrink-0 md:w-52 md:h-52 thumbnail relative before:absolute before:content-[''] before:bottom-0 before:left-0 before:w-[calc(100%_+_30px)] before:h-[calc(100%_+_10px)] before:bg-pink-500 before:rounded-[33%_67%_50%_50%_/50%_14%_86%_50%] before:shadown-lg before:-z-10">
     <img class="object-cover w-full h-full rounded-full shadow-lg " src="assets/img/owner.jpg" alt="" />
     </div>            
   
@@ -568,27 +566,27 @@ Read more
     
        <section class="pt-12" id="statistics">
   <h2 class="text-pink-500 font-['Courgette',_cursive] text-2xl font-bold text-center mb-6 relative after:absolute after:w-16 after:h-0.5 after:bg-pink-500 after:-bottom-3 after:right-0 after:left-0 after:m-[0_auto]">Statistics </h2>
-  <div class="w-full h-auto bg-gradient-mdb to-gray-50 from-transparent rounded-lg shadow-[8px_8px_16px_#d1d1d1,_-8px_-8px_16px_#ffffff]">
+  <div class="w-full h-auto bg-gradient-mdb to-gray-50 from-transparent rounded-lg shadow-[8px_8px_16px_#d1d1d1,_-8px_-8px_16px_#ffffff] py-2">
     <div class="grid grid-cols-2 md:grid-cols-4 gap-5 py-2 px-4 ">
     <span class="text-center">
-      <i class='bx bxs-building-house mb-1 text-4xl'></i>
+      <i class='fa-solid fa-house-circle-check mb-1 text-4xl'></i>
     <h2 class="text-2xl font-extrabold" data-numbers="10021">0</h2>
     <span class="text-sm  text-gray-600 ">Completed Projects</span>
     </span>
     <span class="text-center">
-      <i class='bx bxs-group mb-1 text-4xl'></i>
+      <i class='fa-solid fa-users mb-1 text-4xl'></i>
     <h2 class="text-2xl font-extrabold" data-numbers="15071">0</h2>
     <span class="text-sm  text-gray-600 ">Satisfied Clients</span>
     </span>
     <span class="text-center">
-      <i class='bx bxs-group mb-1 text-clack text-4xl'></i>
+      <i class='fa-solid fa-users-line mb-1 text-clack text-4xl'></i>
     <h2 class="text-2xl font-extrabold" data-numbers="11957">0</h2>
     <span class="text-sm  text-gray-600 ">Employees</span>
     </span>
     <span class="text-center">
-      <i class='bx bxs-coin-stack mb-1 text-4xl'></i>
+      <i class='fa-solid fa-chart-simple mb-1 text-4xl'></i>
     <h2 class="text-2xl font-extrabold" data-numbers="1200721">0</h2>
-    <span class="text-sm  text-gray-600">Anum Turnover</span>
+    <span class="text-sm  text-gray-600">Annual Revenue</span>
     </span>
     </div>
     </div>
@@ -603,7 +601,6 @@ Read more
      <section class="pt-12" id="contact-us">
       
       <h2 class="text-pink-500 font-['Courgette',_cursive] text-2xl font-bold text-center mb-6 relative after:absolute after:w-16 after:h-0.5 after:bg-pink-500 after:-bottom-3 after:right-0 after:left-0 after:m-[0_auto]">Contact Us  </h2>
-      
     
     
     <div class="grid grid-cols-6 place-items-stretch gap-3">
@@ -616,25 +613,24 @@ Read more
     
       
       <div class="fname">
-        <label for="email-address-icon" class="block mb-2 text-sm font-medium text-pink-500">First Name</label>
+        <label for="fname-icon" class="block mb-2 text-sm font-medium text-pink-500">First Name</label>
         <div class="relative">
           <div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
-            <i class='bx bxs-face w-5 h-5 text-pink-500 text-lg' aria-hidden="true" ></i>
+            <i class='fa-regular fa-face-meh w-5 h-5 text-pink-500 text-lg' aria-hidden="true" ></i>
           </div>
-          <input type="text" id="email-address-icon" class="block w-full pl-10 p-2.5 form-control" placeholder="name@flowbite.com" />
+          <input type="text" id="fname-icon" class="block w-full pl-10 p-2.5 form-control" placeholder="name@flowbite.com" />
         </div>  
       </div>
     
     
       <div class="lname">
-        <label for="email-address-icon" class="block mb-2 text-sm font-medium text-pink-500">Last Name</label>
+        <label for="lname-icon" class="block mb-2 text-sm font-medium text-pink-500">Last Name</label>
         <div class="relative">
           <div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
-            <i class='bx bxs-face w-5 h-5 text-pink-500 text-lg' aria-hidden="true" ></i>
+            <i class='fa-regular fa-face-meh w-5 h-5 text-pink-500 text-lg' aria-hidden="true" ></i>
           </div>
-          <input type="text" id="email-address-icon" class="block w-full pl-10 p-2.5  form-control" placeholder="name@flowbite.com" />
+          <input type="text" id="lname-icon" class="block w-full pl-10 p-2.5  form-control" placeholder="name@flowbite.com" />
         </div>
-    
       </div>
     
     
@@ -643,12 +639,12 @@ Read more
     
       
       <div class="subject col-span-full">
-        <label for="email-address-icon" class="block mb-2 text-sm font-medium text-pink-500">Subject</label>
+        <label for="subject-icon" class="block mb-2 text-sm font-medium text-pink-500">Subject</label>
         <div class="relative">
           <div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
-            <i class='bx bxs-book w-5 h-5 text-pink-500 text-lg' aria-hidden="true" ></i>
+            <i class='fa-solid fa-book-open w-5 h-5 text-pink-500 text-lg' aria-hidden="true" ></i>
           </div>
-          <input type="text" id="email-address-icon" class="block w-full pl-10 p-2.5 form-control" placeholder="name@flowbite.com" />
+          <input type="text" id="subject-icon" class="block w-full pl-10 p-2.5 form-control" placeholder="name@flowbite.com" />
         </div>
       
       </div>
@@ -657,10 +653,10 @@ Read more
     
     
     <div class="subject col-span-full">
-      <label for="email-address-icon" class="block mb-2 text-sm font-medium text-pink-500">Your Email</label>
+      <label for="email-icon" class="block mb-2 text-sm font-medium text-pink-500">Your Email</label>
       <div class="relative">
         <div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
-          <i class='bx bxs-envelope w-5 h-5 text-pink-500 text-lg' aria-hidden="true" ></i>
+          <i class='fa-solid fa-envelope w-5 h-5 text-pink-500 text-lg' aria-hidden="true" ></i>
         </div>
         <input type="text" id="email-address-icon" class="block w-full pl-10 p-2.5 form-control" placeholder="name@flowbite.com" />
       </div>
@@ -691,20 +687,23 @@ Read more
       <div class="bg-gradient-mdb p-6 to-gray-50 from-transparent hover:bg-gradient-mdb shadow-[8px_8px_16px_#d1d1d1,_-8px_-8px_16px_#ffffff] rounded-md address">
         <div class="font-['Roboto'] infobox">
     <h3 class="text-pink-500 my-2 font-bold ">Contact Info</h3>
-          <div class="flex items-center mb-2">
-      <span class="min-w-[40px] h-10 text-white bg-pink-500 flex justify-center items-center text-2xl rounded-full mr-4 "><i class='bx bxs-map'></i></span>
-      <p class="text-base">Al Mualla Tower # 1,King Abdul Aziz Rd, <b>Madina, KSA</b></p>
+    <div class="flex items-center mb-2">
+    <span class="min-w-[40px] h-10 text-white bg-pink-500 flex justify-center items-center text-2xl rounded-full mr-4">
+    <i class='fa-solid fa-location-dot'></i></span>
+    <p class="text-base">Al Mualla Tower # 1,King Abdul Aziz Rd, <b>Madina, KSA</b></p>
     </div>
     
     
     <div class="flex items-center mb-2">
-      <span class="min-w-[40px] h-10 text-white bg-pink-500 flex justify-center items-center text-2xl rounded-full mr-4 "><i class='bx bxs-phone'></i></span>
+     <span class="min-w-[40px] h-10 text-white bg-pink-500 flex justify-center items-center text-2xl rounded-full mr-4">
+     <i class='fa-solid fa-phone'></i></span>
     <a class="text-base" href="tel:+966920005786">+966 920005786</a>
     </div>
     
     
     <div class="flex items-center mb-2">
-      <span class="min-w-[40px] h-10 text-white bg-pink-500 flex justify-center items-center text-2xl rounded-full mr-4 "><i class='bx bxs-envelope'></i></span>
+      <span class="min-w-[40px] h-10 text-white bg-pink-500 flex justify-center items-center text-2xl rounded-full mr-4">
+        <i class='fa-solid fa-envelope'></i></span>  
       <a class="text-base" href="mailto:fgcadmn@gmail.com">fgcadmn@gmail.com</a>
     </div>
     
@@ -712,10 +711,10 @@ Read more
         </div>
         
     <ul class="mt-10 flex  justify-center items-center social">
-      <li class="list-none mr-4"><a class="text-3xl text-gray-900 hover:text-gray-700" href=""><i class='bx bxl-facebook'></i></a></li>
-      <li class="list-none mr-4"><a class="text-3xl text-gray-900 hover:text-gray-700" href=""><i class='bx bxl-twitter'></i></a></li>
-      <li class="list-none mr-4"><a class="text-3xl text-gray-900 hover:text-gray-700 " href=""><i class='bx bxl-instagram'></i></a></li>
-      <li class="list-none mr-4"><a class="text-3xl text-gray-900 hover:text-gray-700" href=""><i class='bx bxl-linkedin'></i></a></li>
+      <li class="list-none mr-4"><a class="text-3xl text-gray-900 hover:text-gray-700" href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+      <li class="list-none mr-4"><a class="text-3xl text-gray-900 hover:text-gray-700" href=""><i class="fa-brands fa-twitter"></i></a></li>
+      <li class="list-none mr-4"><a class="text-3xl text-gray-900 hover:text-gray-700 " href=""><i class="fa-brands fa-instagram"></i></a></li>
+      <li class="list-none mr-4"><a class="text-3xl text-gray-900 hover:text-gray-700" href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
     </ul>
     
     
@@ -740,107 +739,13 @@ Read more
     
 
     
-<footer class="bg-gradient-to-tr from-pink-400 via-bg-pink-700 to-pink-600 rounded-t-lg mt-10  text-white ">
-  <div class="grid grid-cols-2 gap-8 py-8 px-6 md:grid-cols-4">
-      <div>
-          <h2 class="mb-6 text-sm font-semibold uppercase">Company</h2>
-          <ul class="">
-              <li class="mb-4">
-                  <a href="#" class="hover:underline">About</a>
-              </li>
-              <li class="mb-4">
-                  <a href="#" class="hover:underline">Careers</a>
-              </li>
-              <li class="mb-4">
-                  <a href="#" class="hover:underline">Brand Center</a>
-              </li>
-              <li class="mb-4">
-                  <a href="#" class="hover:underline">Blog</a>
-              </li>
-          </ul>
-      </div>
-      <div>
-          <h2 class="mb-6 text-sm font-semibold uppercase ">Help center</h2>
-          <ul class="">
-              <li class="mb-4">
-                  <a href="#" class="hover:underline">Discord Server</a>
-              </li>
-              <li class="mb-4">
-                  <a href="#" class="hover:underline">Twitter</a>
-              </li>
-              <li class="mb-4">
-                  <a href="#" class="hover:underline">Facebook</a>
-              </li>
-              <li class="mb-4">
-                  <a href="#" class="hover:underline">Contact Us</a>
-              </li>
-          </ul>
-      </div>
-      <div>
-          <h2 class="mb-6 text-sm font-semibold  uppercase">Legal</h2>
-          <ul class="">
-              <li class="mb-4">
-                  <a href="#" class="hover:underline">Privacy Policy</a>
-              </li>
-              <li class="mb-4">
-                  <a href="#" class="hover:underline">Licensing</a>
-              </li>
-              <li class="mb-4">
-                  <a href="#" class="hover:underline">Terms &amp; Conditions</a>
-              </li>
-          </ul>
-      </div>
-      <div>
-          <h2 class="mb-6 text-sm font-semibold">Download</h2>
-          <ul class="">
-              <li class="mb-4">
-                  <a href="#" class="hover:underline">iOS</a>
-              </li>
-              <li class="mb-4">
-                  <a href="#" class="hover:underline">Android</a>
-              </li>
-              <li class="mb-4">
-                  <a href="#" class="hover:underline">Windows</a>
-              </li>
-              <li class="mb-4">
-                  <a href="#" class="hover:underline">MacOS</a>
-              </li>
-          </ul>
-      </div>
-  </div>
-  <div class="py-6 px-4  md:flex md:items-center md:justify-between">
-      <span class="text-sm sm:text-center">© 2022 <a href="#">Fazal-Al-Abbasi.com ™</a>. All Rights Reserved.
-      </span>
-      <div class="flex mt-4 space-x-6 sm:justify-center md:mt-0">
-          <a href="#" class="hover:text-gray-900">
-              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd"></path></svg>
-              <span class="sr-only">Facebook page</span>
-          </a>
-          <a href="#" class="hover:text-gray-900">
-              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd"></path></svg>
-              <span class="sr-only">Instagram page</span>
-          </a>
-          <a href="#" class="hover:text-gray-900">
-              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path></svg>
-              <span class="sr-only">Twitter page</span>
-          </a>
-          <a href="#" class="hover:text-gray-900">
-              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path></svg>
-              <span class="sr-only">GitHub account</span>
-          </a>
-          <a href="#" class=" hover:text-gray-900">
-              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z" clip-rule="evenodd"></path></svg>
-              <span class="sr-only">Dribbble account</span>
-          </a>
-      </div>
-  </div>
+<footer class="bg-gradient-mdb from-pink-500 via-bg-pink-600 to-pink-700 rounded-t-lg mt-10  text-white ">
+asasa
 </footer>
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M12 16c2.206 0 4-1.794 4-4s-1.794-4-4-4-4 1.794-4 4 1.794 4 4 4zm0-6c1.084 0 2 .916 2 2s-.916 2-2 2-2-.916-2-2 .916-2 2-2z"></path><path d="m2.845 16.136 1 1.73c.531.917 1.809 1.261 2.73.73l.529-.306A8.1 8.1 0 0 0 9 19.402V20c0 1.103.897 2 2 2h2c1.103 0 2-.897 2-2v-.598a8.132 8.132 0 0 0 1.896-1.111l.529.306c.923.53 2.198.188 2.731-.731l.999-1.729a2.001 2.001 0 0 0-.731-2.732l-.505-.292a7.718 7.718 0 0 0 0-2.224l.505-.292a2.002 2.002 0 0 0 .731-2.732l-.999-1.729c-.531-.92-1.808-1.265-2.731-.732l-.529.306A8.1 8.1 0 0 0 15 4.598V4c0-1.103-.897-2-2-2h-2c-1.103 0-2 .897-2 2v.598a8.132 8.132 0 0 0-1.896 1.111l-.529-.306c-.924-.531-2.2-.187-2.731.732l-.999 1.729a2.001 2.001 0 0 0 .731 2.732l.505.292a7.683 7.683 0 0 0 0 2.223l-.505.292a2.003 2.003 0 0 0-.731 2.733zm3.326-2.758A5.703 5.703 0 0 1 6 12c0-.462.058-.926.17-1.378a.999.999 0 0 0-.47-1.108l-1.123-.65.998-1.729 1.145.662a.997.997 0 0 0 1.188-.142 6.071 6.071 0 0 1 2.384-1.399A1 1 0 0 0 11 5.3V4h2v1.3a1 1 0 0 0 .708.956 6.083 6.083 0 0 1 2.384 1.399.999.999 0 0 0 1.188.142l1.144-.661 1 1.729-1.124.649a1 1 0 0 0-.47 1.108c.112.452.17.916.17 1.378 0 .461-.058.925-.171 1.378a1 1 0 0 0 .471 1.108l1.123.649-.998 1.729-1.145-.661a.996.996 0 0 0-1.188.142 6.071 6.071 0 0 1-2.384 1.399A1 1 0 0 0 13 18.7l.002 1.3H11v-1.3a1 1 0 0 0-.708-.956 6.083 6.083 0 0 1-2.384-1.399.992.992 0 0 0-1.188-.141l-1.144.662-1-1.729 1.124-.651a1 1 0 0 0 .471-1.108z"></path></svg>
+
 
     </div>
-<svg xmlns="http://www.w3.org/2000/svg" width="156" height="156" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;">
-<path d="M20 4H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm0 2v.511l-8 6.223-8-6.222V6h16zM4 18V9.044l7.386 5.745a.994.994 0 0 0 1.228 0L20 9.044 20.002 18H4z"></path>
-</svg>
+
  <script src="assets/js/tw-element.js"></script>
  <script src="assets/js/jquery/jquery-3.5.1.min.js"></script>
 <script src="assets/js/jquery/plugins/owl.carousel.js"></script>
