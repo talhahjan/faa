@@ -7,7 +7,7 @@ toggleBtn.addEventListener('click', ()=> navMenu.classList.toggle('hidden'));
 
 window.addEventListener('scroll', ()=>{
   navBar.classList.toggle('shadow-lg', window.scrollY > 0);
-  navMenu.classList.toggle('hidden', window.scrollY > 0);
+  navMenu.classList.toggle('hidden', navMenu.classList.contains('md:static'));
 })
 
 $('.owl-carousel').owlCarousel({
