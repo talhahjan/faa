@@ -11,55 +11,26 @@ body {
   font-size: 1rem;
   font-weight: 400;
   background-color: #eeeeee;
-  
-
+  box-sizing: border-box;
 }
 
 
 
 
 .wrapper{
- @apply flex flex-col justify-between h-screen max-w-5xl text-left m-[0_auto] ;
+ @apply flex flex-col justify-between h-screen max-w-5xl text-left my-0 mx-4 ;
 }
 
 
 .bg-gradient-mdb {
-  background-image: linear-gradient(145deg,var(--tw-gradient-from),var(--tw-gradient-stops));
+  background-image: linear-gradient(90deg,var(--tw-gradient-from),var(--tw-gradient-stops));
 }
 
-
-
-
-  /* .card{
-    @apply font-[.876rem] relative flex flex-col bg-white rounded border border-gray-400 shadow-md;
-  }
-.card .header{
-  @apply  bg-gradient-mdb rounded-t h-[60px] leading-[60px] text-white pl-4 shadow-lg; 
-}
-
-.card-mdb{
-  @apply mt-8
-}
-
-.card.card-mdb .header{
-@apply bg-gradient-mdb absolute pl-2 w-[calc(100%_-_1rem)] leading-[60px] border border-[hsla(0,0%,100%,.25)] h-[60px] rounded text-white top-[-20px] left-[.5rem]
-}
-
-
-.card-mdb .body{
-  @apply pt-8
-}
-
-.card .body{ 
-  @apply m-2;
-}
-
- */
 
 
 
 .form-control {
-@apply w-full text-sm font-normal border border-pink-500 rounded text-black leading-4 outline-none box-border transition-all duration-75 bg-clip-padding appearance-none bg-gray-200 placeholder:text-gray-500;
+@apply w-full text-sm font-normal border border-rose-500 rounded text-black leading-4 outline-none box-border transition-all duration-75 bg-clip-padding appearance-none bg-gray-100 placeholder:text-slate-400 placeholder:text-opacity-60;
 }
 
 
@@ -67,7 +38,7 @@ body {
 .form-select:focus
 {
   @apply outline-none;
-  box-shadow: 0 0 8px 0 #e91e63;
+  box-shadow: 0 0 8px 0 #f43f5e;
 }
 
 
