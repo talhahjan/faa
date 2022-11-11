@@ -18,7 +18,7 @@ body {
 
 
 .wrapper{
- @apply flex flex-col justify-between h-screen max-w-5xl text-left my-0 mx-4 ;
+ @apply flex flex-col justify-between h-screen max-w-5xl text-left my-0 mx-auto ;
 }
 
 
