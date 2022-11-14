@@ -2,12 +2,13 @@ const navMenu=document.getElementById('nav-menu');
 const toggleBtn=document.getElementById('toggle-btn');
 const navBar=document.querySelector('nav');
 toggleBtn.addEventListener('click', ()=> navMenu.classList.toggle('hidden'));
-
-
+const topBtn=document.getElementById('goToTopBtn');
+goToTopBtn.addEventListener('click', ()=>document.documentElement.scrollTop = 0)
 
 window.addEventListener('scroll', ()=>{
   navBar.classList.toggle('shadow-lg', window.scrollY > 0);
   navMenu.classList.toggle('hidden', navMenu.classList.contains('md:static'));
+  goToTopBtn.classList.toggle('hidden', window.scrollY < 100);
 })
 
 $('.owl-carousel').owlCarousel({
